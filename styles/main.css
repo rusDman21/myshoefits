@@ -366,7 +366,7 @@ a:focus {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active, a:hover, a:visited {
+a:active, a:visited {
   outline: 0;
   color: inherit;
 }
@@ -423,8 +423,16 @@ h1 {
   margin: 0.67em 0;
 }
 
+h2 {
+  font-size: 1.3em;
+}
+
 h3 {
   font-style: italic;
+}
+
+h4 {
+  font-size: 1.5em;
 }
 
 /**
@@ -535,10 +543,6 @@ body {
   font-family: 'Libre Baskerville', serif;
 }
 
-.postTitle {
-  
-}
-
 .postBody {
   line-height: 1.5em;
 }
@@ -547,16 +551,22 @@ body {
   font-style: italic;
 }
 
-.postDate {
-  
-}
-
-.blogList li {
+.tagCloud li {
   margin-bottom: 40px;
 }
 
+.archive li {
+  margin-bottom: 20px;
+}
 
+aside .element:first-of-type {
+  margin: 40px 0 60px;
+}
 
+.tagCloud {
+  font-size: .5em;
+  text-align: center;
+}
 
 
 
