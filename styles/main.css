@@ -423,9 +423,7 @@ h1 {
   margin: 0.67em 0;
 }
 
-h2 {
-  font-size: 1.3em;
-}
+
 
 h3 {
   font-style: italic;
@@ -559,6 +557,14 @@ body {
   margin-bottom: 20px;
 }
 
+.archive li > h2 {
+  font-size: 1.3em;
+}
+
+.archive .postTitle {
+  margin-bottom: 0;
+}
+
 aside .element:first-of-type {
   margin: 40px 0 60px;
 }
@@ -568,8 +574,13 @@ aside .element:first-of-type {
   text-align: center;
 }
 
+.postArchiveGroup li > h2 {
+  font-size: 1.1em;
+}
 
-
+.postArchiveGroup .postInfo {
+  font-size: .8em;
+}
 
 /*
   normalize.css v2.1.3 | MIT License | git.io/normalize
