@@ -346,6 +346,14 @@ a {
   text-decoration: none;
 }
 
+p a {
+  color: rgb(150, 150, 150);
+}
+
+a:hover {
+  color: rgb(100, 100, 100);
+}
+
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
@@ -363,9 +371,7 @@ a:active, a:hover, a:visited {
   color: inherit;
 }
 
-a:hover {
-  color: rgb(150, 150, 150);
-}
+
 
 
 /* ==========================================================================
@@ -544,6 +550,8 @@ body {
 .blogList li {
   margin-bottom: 40px;
 }
+
+
 
 
 
