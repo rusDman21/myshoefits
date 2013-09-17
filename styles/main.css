@@ -75,7 +75,7 @@ html {
 
 body {
   margin: 0;
-  background: url(../img/swirl2x.png);
+  background: url(../img/swirlt.png);
 }
 
 .container {
@@ -423,6 +423,10 @@ h1 {
   margin: 0.67em 0;
 }
 
+h3 {
+  font-style: italic;
+}
+
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
@@ -527,7 +531,7 @@ sub {
 }
 
 body {
-  color: rgb(50, 50, 50);
+  color: rgb(46, 24, 3);
   font-family: 'Libre Baskerville', serif;
 }
 
