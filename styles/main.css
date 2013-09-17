@@ -1,4 +1,3 @@
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 
 /* ==========================================================================
    HTML5 display definitions
@@ -76,6 +75,7 @@ html {
 
 body {
   margin: 0;
+  background: url(../img/swirl2x.png);
 }
 
 .container {
@@ -83,28 +83,53 @@ body {
   margin: 0 auto;
 }
 
-article, aside, header h1, header nav, nav li {
+article, aside, nav li, footer h3, footer nav {
   float: left;
 }
 
-section {
-  background-color: orange;
+header {
+  margin-top: 40px;
+}
+
+header nav, header h1 {
+  /*float: left;*/
+}
+
+header nav {
+  margin-left: 50px;
+}
+
+header h1 {
+  margin: 0;
 }
 
 article {
-  background-color: blue;
-  width: 500px;
+  padding: 20px 40px 10px 20px;
+  width: 660px;
 }
 
 aside {
-  background-color: green;
-  width: 200px;
+  border-left: dotted 2px rgb(200, 200, 200);
+  border-radius: 2px;
+  padding: 20px 10px 10px;
+  width: 218px;
 }
 
 footer {
-  background-color: red;
+  margin: 40px auto;
 }
 
+footer h3 {
+  margin: 0;
+}
+
+footer ul {
+  padding: 2px 0 0 40px;
+}
+
+footer li {
+  line-height: 22px;
+}
 
 
 /* ==========================================================================
@@ -144,6 +169,12 @@ img {
 
 svg:not(:root) {
     overflow: hidden;
+}
+
+.postBody img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
 }
 
 
@@ -310,7 +341,9 @@ textarea {
  */
 
 a {
-    background: transparent;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
 }
 
 /**
@@ -318,16 +351,20 @@ a {
  */
 
 a:focus {
-    outline: thin dotted;
+  outline: thin dotted;
 }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active,
+a:active, a:hover, a:visited {
+  outline: 0;
+  color: inherit;
+}
+
 a:hover {
-    outline: 0;
+  color: rgb(150, 150, 150);
 }
 
 
@@ -376,6 +413,7 @@ table {
 
 h1 {
   font-size: 2em;
+  font-style: italic;
   margin: 0.67em 0;
 }
 
@@ -393,6 +431,10 @@ abbr[title] {
 
 b, strong {
     font-weight: bold;
+}
+
+strong {
+  line-height: 1.5em;
 }
 
 /**
@@ -455,7 +497,7 @@ q {
  */
 
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 /**
@@ -464,22 +506,50 @@ small {
 
 sub,
 sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sup {
-    top: -0.5em;
+  top: -0.5em;
 }
 
 sub {
-    bottom: -0.25em;
+  bottom: -0.25em;
+}
+
+body {
+  color: rgb(50, 50, 50);
+  font-family: 'Libre Baskerville', serif;
+}
+
+.postTitle {
+  
+}
+
+.postBody {
+  line-height: 1.5em;
+}
+
+.postInfo {
+  font-style: italic;
+}
+
+.postDate {
+  
+}
+
+.blogList li {
+  
 }
 
 
 
 
 
-
+/*
+  normalize.css v2.1.3 | MIT License | git.io/normalize
+  The background pattern "Swirl" is downloaded from www.subtlepatterns.com by http://peterchondesign.com/
+*/
