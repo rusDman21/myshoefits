@@ -553,6 +553,10 @@ body {
   margin-bottom: 40px;
 }
 
+.archive ul {
+  padding-left: 10px;
+}
+
 .archive li {
   margin-bottom: 20px;
 }
@@ -574,12 +578,20 @@ aside .element:first-of-type {
   text-align: center;
 }
 
+.postArchiveGroup ul {
+  padding-left: 20px;
+}
+
 .postArchiveGroup li > h2 {
   font-size: 1.1em;
 }
 
 .postArchiveGroup .postInfo {
   font-size: .8em;
+}
+
+.rss {
+  display: none;
 }
 
 /*
